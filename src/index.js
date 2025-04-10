@@ -43,9 +43,9 @@ if (process.env.NODE_ENV === "production") {
   });
 }
 
-module.exports = (req, res) => {
-  res.status(200).json({ message: "Hello from Vercel serverless function!" });
-};
+// module.exports = (req, res) => {
+//   res.status(200).json({ message: "Hello from Vercel serverless function!" });
+// };
 
 
 // Start the server and connect to MongoDB
